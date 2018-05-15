@@ -16,14 +16,15 @@ and animating discrete nonlinear dynamical systems and chaos.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pynamical-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pynamical-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pynamical-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pynamical-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pynamical-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pynamical-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pynamical-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pynamical-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pynamical/badges/version.svg)](https://anaconda.org/conda-forge/pynamical)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pynamical/badges/downloads.svg)](https://anaconda.org/conda-forge/pynamical)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pynamical-green.svg)](https://anaconda.org/conda-forge/pynamical) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pynamical.svg)](https://anaconda.org/conda-forge/pynamical) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pynamical.svg)](https://anaconda.org/conda-forge/pynamical) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pynamical.svg)](https://anaconda.org/conda-forge/pynamical) |
 
 Installing pynamical
 ====================
@@ -68,6 +69,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
