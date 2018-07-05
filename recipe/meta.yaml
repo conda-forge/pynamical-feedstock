@@ -1,6 +1,6 @@
 {% set name = "pynamical" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "99cc9cb14a37687d072f13477473c1ea94bc4f576b19d8bae37a3dbc3050f4e4" %}
+{% set version = "0.2" %}
+{% set sha256 = "0ea5e2d578bb42dacbe94d6b16487269c69abd88eaced423f62ded2221653570" %}
 
 package:
   name: {{ name|lower }}
@@ -40,7 +40,7 @@ about:
   description: |
     Pynamical is a Python package for modeling, simulating, visualizing, 
     and animating discrete nonlinear dynamical systems and chaos.
-  doc_url: https://pynamical.readthedocs.io/en/latest/
+  doc_url: https://pynamical.readthedocs.io
   dev_url: https://github.com/gboeing/pynamical
 
 extra:
