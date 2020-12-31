@@ -1,23 +1,22 @@
 {% set name = "pynamical" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "2bafb179ca69e124c280b7cb91cc4759c22754e1b9aff2881bdc3a92dd889485" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 3
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -38,7 +37,7 @@ about:
   license_file: LICENSE.txt
   summary: 'Model, simulate, and visualize discrete nonlinear dynamical systems'
   description: |
-    Pynamical is a Python package for modeling, simulating, visualizing, 
+    Pynamical is a Python package for modeling, simulating, visualizing,
     and animating discrete nonlinear dynamical systems and chaos.
   doc_url: https://pynamical.readthedocs.io/
   dev_url: https://github.com/gboeing/pynamical
