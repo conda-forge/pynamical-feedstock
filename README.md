@@ -5,9 +5,13 @@ Home: https://github.com/gboeing/pynamical
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pynamical-feedstock/blob/master/LICENSE.txt)
 
 Summary: Model, simulate, and visualize discrete nonlinear dynamical systems
+
+Development: https://github.com/gboeing/pynamical
+
+Documentation: https://pynamical.readthedocs.io/
 
 Pynamical is a Python package for modeling, simulating, visualizing,
 and animating discrete nonlinear dynamical systems and chaos.
