@@ -1,6 +1,6 @@
 {% set name = "pynamical" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "872af1e05b7c9f179a0f6c58ceafec1711be365fd3e417b0ca580599d4710ff6" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "2a24ee76ea078bc80a2fdefa2bcd322d11222eae6e05b22565f2392b316ff3ea" %}
 
 package:
   name: {{ name|lower }}
