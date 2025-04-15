@@ -1,6 +1,6 @@
 {% set name = "pynamical" %}
-{% set version = "0.3.2" %}
-{% set sha256 = "551a37a39f11e8b621075877bfb799bd0f83d3142926734e7a4b45473e3ac16a" %}
+{% set version = "0.3.3" %}
+{% set sha256 = "7b508ec618d7ef8a61e8ecf01b7c3aa43dc7674b0dbfb8cc6e2afe1f9a1a9507" %}
 
 package:
   name: {{ name|lower }}
@@ -17,14 +17,14 @@ build:
 
 requirements:
   host:
-    - python >=3.8
     - pip
-  run:
     - python >=3.8
-    - numpy
-    - matplotlib-base
-    - pandas
-    - numba
+  run:
+    - matplotlib-base >=3.5,<3.11
+    - numba >=0.53,<0.62
+    - numpy >=1.20,<2.3
+    - pandas >=1.3,<2.3
+    - python >=3.8
 
 test:
   imports:
