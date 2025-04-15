@@ -1,6 +1,7 @@
 {% set name = "pynamical" %}
 {% set version = "0.3.3" %}
 {% set sha256 = "7b508ec618d7ef8a61e8ecf01b7c3aa43dc7674b0dbfb8cc6e2afe1f9a1a9507" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -30,6 +31,8 @@ requirements:
 test:
   imports:
     - pynamical
+  requires:
+    - python {{ python_min }}
 
 about:
   home: https://github.com/gboeing/pynamical
